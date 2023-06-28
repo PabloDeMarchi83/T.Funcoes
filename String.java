@@ -1,4 +1,12 @@
 import javax.xml.transform.Source;
+//length() contagem de quantos caractere 
+//charAt(x) posiçao da letra da variavel
+//substring()
+//toUpperCase()
+//toLoveCase()
+//concat()
+
+
 
 public class String {
 
@@ -14,7 +22,7 @@ public class String {
             System.out.printf("var c : %c \n" , c);
             System.out.printf("var st : %s \n" , st);
             System.out.println(st1==st2);
-            System.out.println(st1.length());
+            System.out.println(st1.length()); 
             System.out.println(st1.charAt(st1.length()-2));
             System.out.println(st1.substring(0, 5+1));
             System.out.println(st1.toUpperCase());
